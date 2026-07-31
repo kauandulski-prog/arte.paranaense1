@@ -1,5 +1,5 @@
 body{
-    background-color: blueviolet;
+    background-color: rgb(7, 4, 51);
     color: blue;
     font-family: Arial, sans-serif;
 }
@@ -16,10 +16,10 @@ h1 {
 }
 
 h2 {
-    color: #C61FD1; 
+    color: #1d003d; 
 }
 
 p  {
     font-size: 18px;
-    line-heigth: 1.6;
+    line-height: 1.6;
 }
