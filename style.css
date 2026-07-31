@@ -8,7 +8,7 @@ header {
     background-color: #0946a1; 
     color: #ffffff; 
     text-align: center; 
-    padding: 45px;
+    padding: 30px;
  } 
 
  h1 { 
@@ -20,6 +20,6 @@ h2 {
 } 
 
 p { 
-    font-size: 25px; 
+    font-size: 20px; 
     line-height: 1.6; 
  }
