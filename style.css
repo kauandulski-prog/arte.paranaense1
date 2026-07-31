@@ -1,16 +1,25 @@
 body{
     background-color: blueviolet;
     color: blue;
+    font-family: Arial, sans-serif;
 }
+
 header{
     background-color: #003599;
     color: #00FFE7;
+    text-align: center;
+    padding: 30px;
 }
-main{
-    background-color: #EBDDDD;
-    
+
+h1 {
+    font-size: 36px;  
 }
-foster{
-    background-color: #C61FD1;
-    color: #F226FF;
+
+h2 {
+    color: #C61FD1; 
+}
+
+p  {
+    font-size: 18px;
+    line-heigth: 1.6;
 }
