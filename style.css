@@ -1,13 +1,13 @@
 body {
-    background-color: #f7f7f7;
-    color:  black;
+    background-color: #f4f1e8;
+    color: #222;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: #0946a1;
-    color: black;
+    background-color: #2e7d32;
+    color: white;
     text-align: center;
     padding: 30px;
 }
@@ -17,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: #42a5f5;
+    color: #1565c0;
 }
 
 p {
@@ -26,13 +26,13 @@ p {
 }
 
 nav {
-     margin-top: 20px;
+    margin-top: 20px;
 }
 
 nav a {
-    color: black;
+    color: white;
     text-decoration: none;
-    background-color:  rgb(241, 237, 237);
+    background-color: #1565c0;
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #0946a1;
+    background-color: #0d47a1;
 }
 
 main {
@@ -49,10 +49,11 @@ main {
 }
 
 section {
-    background-color: black;
+    background-color: white;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 img {
@@ -66,26 +67,28 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color:  black;
+    color: #555;
     margin-top: 8px;
 }
 
 card {
-    background-color: black;
+    display: block;
+    background-color: #f1f8e9;
     padding: 15px;
     margin: 15px 0;
-    border-left: 6px solid #0946a1;
+    border-left: 6px solid #2e7d32;
     border-radius: 10px;
 }
 
 card h3 {
     margin-top: 0;
+    color: #1565c0;
 }
 
 footer {
-    background-color: #222222;
-    color: #0946a1;
+    background-color: #263238;
+    color: white;
     text-align: center;
     padding: 20px;
-    margin-top: 30 px;
+    margin-top: 30px;
 }
