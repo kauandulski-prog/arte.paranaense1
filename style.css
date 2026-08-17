@@ -36,7 +36,7 @@ nav {
 
 
 nav a {
-    color: white;
+    color: #0d1b2a;
     text-decoration: none;
     background-color: #1565c0;
     padding: 10px 15px;
@@ -58,7 +58,7 @@ main {
 
 
 section {
-    background-color: #ffffff;
+    background-color: #0d1b2a;
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -78,14 +78,14 @@ img {
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #555;
+    color: #1565c0;
     margin-top: 8px;
 }
 
 
 card {
     display: block;
-    background-color: #eaf2ff;
+    background-color: #0d1b2a;
     padding: 15px;
     margin: 15px 0;
     border-left: 6px solid #1565c0;
