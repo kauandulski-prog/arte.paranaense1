@@ -92,21 +92,25 @@ figcaption {
 }
 
 
-card {
-    display: block;
+.card {
     background-color: #1e293b;
-    padding: 15px;
-    margin: 15px 0;
-    border-left: 5px solid #3b82f6;
-    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #3b82f6;
+    border-left: 6px solid #60a5fa;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
 }
 
-
-card h3 {
+.card h3 {
     margin-top: 0;
     color: #60a5fa;
+    font-size: 20px;
 }
 
+.card p {
+    margin-bottom: 0;
+}
 
 footer {
     background-color: #062f55;
