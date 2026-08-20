@@ -15,14 +15,12 @@ header {
 
 
 h1 {
-    border-left: 6px solid #60a5fa;
     font-size: 35px;
     margin: 0;
 }
 
 
 h2 {
-    border-left: 6px solid #60a5fa;
     color: #60a5fa;
     font-size: 24px;
     margin-bottom: 15px;
@@ -30,7 +28,6 @@ h2 {
 
 
 h3 {
-    border-left: 6px solid #60a5fa;
     color: #93c5fd;
 }
 
