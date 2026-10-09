@@ -61,7 +61,7 @@ nav {
 nav a {
     color: var(--cor-texto);
     text-decoration: none;
-    background-color: #1565c0;
+    background-color: var(--cor-clara);
     padding: 10px 15px;
     border-radius: 8px;
     margin: 5px;
@@ -129,7 +129,7 @@ figcaption {
 }
 
 footer {
-    background-color: #062f55;
+    background-color: var(--cor-card);
     color: var(--cor-texto);
     text-align: center;
     padding: 20px;
