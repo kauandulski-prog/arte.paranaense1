@@ -8,7 +8,7 @@
    --cor-superficie: #182235;
    --cor-card: #161f31;
    --cor-legenda: #1565c0;
-   --cor-clara: #e5e7eb;
+   --cor-clara: #60a5fa;
    --cor-rodape: #1565c0;
 }
 
@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: var(--cor-principal);
-    color: var(--cor-clara);
+    color: var(--cor-texto);
     text-align: center;
     padding: 30px;
 }
@@ -42,14 +42,14 @@ h2 {
 
 
 h3 {
-    color: #1565c0;
+    color: var(--cor-hover);
 }
 
 
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: #d1d5db;
+    color: var(--cor-texto);;
 }
 
 
@@ -59,7 +59,7 @@ nav {
 
 
 nav a {
-    color: white;
+    color: var(--cor-texto);
     text-decoration: none;
     background-color: #1565c0;
     padding: 10px 15px;
@@ -70,7 +70,7 @@ nav a {
 
 
 nav a:hover {
-    background-color: #0d47a1;
+    background-color: var(--cor-hover);
 }
 
 
@@ -81,7 +81,7 @@ main {
 
 
 section {
-    background-color: #182235;
+    background-color: var(--cor-superficie);
     margin: 25px 0;
     padding: 25px;
     border-radius: 12px;
@@ -96,31 +96,31 @@ img {
     display: block;
     margin: auto;
     border-radius: 12px;
-    border: 4px solid #0d47a1;
+    border: 4px solid var(--cor-hover);
 }
 
 
 figcaption {
     text-align: center;
     font-size: 14px;
-    color: #93c5fd;
+    color: var(--cor-hover);
     margin-top: 8px;
 }
 
 
 .card {
-    background-color: #1e293b;
+    background-color: var(--cor-card);
     padding: 20px;
     margin: 20px 0;
-    border: 2px solid #3b82f6;
-    border-left: 6px solid #1565c0;
+    border: 2px solid var(--cor-secundaria);
+    border-left: 6px solid var(--cor-rodape);
     border-radius: 12px;
-    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 3px 8px var(--cor-fundo);
 }
 
 .card h3 {
     margin-top: 0;
-    color: #60a5fa;
+    color: var(--cor-clara);
     font-size: 20px;
 }
 
@@ -130,7 +130,7 @@ figcaption {
 
 footer {
     background-color: #062f55;
-    color: white;
+    color: var(--cor-texto);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
