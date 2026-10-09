@@ -1,14 +1,28 @@
+
+:root{
+   --cor-fundo: #111827;
+   --cor-texto: #e5e7eb;
+   --cor-principal: #062f55;
+   --cor-secundaria: #1565c0;
+   --cor-hover: #1565c0;
+   --cor-superficie: #182235;
+   --cor-card: #161f31;
+   --cor-legenda: #1565c0;
+   --cor-clara: #e5e7eb;
+   --cor-rodape: #1565c0;
+}
+
 body {
-    background-color: #111827;
-    color: #e5e7eb;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 
 header {
-    background-color: #062f55;
-    color: white;
+    background-color: var(--cor-principal);
+    color: var(--cor-clara);
     text-align: center;
     padding: 30px;
 }
@@ -21,7 +35,7 @@ h1 {
 
 
 h2 {
-    color: #60a5fa;
+    color: var(--cor-secundaria);
     font-size: 24px;
     margin-bottom: 15px;
 }
