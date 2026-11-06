@@ -1,15 +1,14 @@
-
-:root{
-   --cor-fundo: #111827;
-   --cor-texto: #e5e7eb;
-   --cor-principal: #062f55;
-   --cor-secundaria: #1565c0;
-   --cor-hover: #1565c0;
-   --cor-superficie: #182235;
-   --cor-card: #161f31;
-   --cor-legenda: #1565c0;
-   --cor-clara: #60a5fa;
-   --cor-rodape: #1565c0;
+:root {
+    --cor-fundo: #111827;
+    --cor-texto: #e5e7eb;
+    --cor-principal: #062f55;
+    --cor-secundaria: #1565c0;
+    --cor-hover: #1565c0;
+    --cor-superficie: #182235;
+    --cor-card: #161f31;
+    --cor-legenda: #1565c0;
+    --cor-clara: #60a5fa;
+    --cor-rodape: #1565c0;
 }
 
 body {
@@ -49,7 +48,8 @@ h3 {
 p {
     font-size: 18px;
     line-height: 1.6;
-    color: var(--cor-texto);;
+    color: var(--cor-texto);
+    ;
 }
 
 
@@ -134,4 +134,46 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 30px;
+}
+
+button {
+    background-color: #1243ac;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1010da;
+}
+
+.curtir {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-curiosidades {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn-tema {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 22px;
 }
